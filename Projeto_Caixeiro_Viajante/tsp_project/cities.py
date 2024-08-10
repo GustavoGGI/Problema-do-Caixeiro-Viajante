@@ -1,4 +1,7 @@
-
+def get_city_coordinates():
+    """Retorna as coordenadas das cidades."""
+    return cidades
+    
 
 cidades = {
     "Montgomery": (32.377716, -86.300568),
@@ -50,6 +53,3 @@ cidades = {
     "Madison": (43.074684, -89.384445),
     "Cheyenne": (41.140259, -104.820236),
 }
-def get_city_coordinates():
-    """Retorna as coordenadas das cidades."""
-    return cidades
